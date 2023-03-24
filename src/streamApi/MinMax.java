@@ -3,7 +3,6 @@ package streamApi;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class MinMax {
 	public static void main(String[] args) {
@@ -29,5 +28,6 @@ public class MinMax {
 		
 		System.out.println(alunos.stream().max(melhorNota).get());
 		System.out.println(alunos.stream().min(melhorNota).get());
+		System.out.println(alunos.stream().max(menorNota).get());
 	}
 }
