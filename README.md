@@ -38,4 +38,12 @@
 
  Esse já era um topico que eu já sabia grande parte, criar exceções, lançar elas, tratar elas e etc. A unica coisa que aprendi agora é a divisão entre as Checadas e não checadas, onde as não checadas não necessariamanete precisam do tratamento de erro, ja as checadas sempre precisam ser tratadas. Isso resolve certos problemas que eu tinha de sempre ter que ficar tratando uma função, mesmo que só em um determinado ponto do codigo que ela precisava ser tratada
 
+ ## Generics
+ O que estudei de Generics até agora:
+
+ Criação de classe Generic
+ Criação de estrutura Chave/Valor usando Generic
+ Criação de Metodos usando Generic
+
+ Generics é uma otima forma de criar classes que podem servir em mais contesto e ao mesmo tempo que não precisam ficar fazendo conversões, como por exemplo a Caixa que foi o objeto que estudei, a mesma classe Caixa pode guarda diferentes tipos de conteudo (String, Integer, Double, ...) usando o Generics, que alem de permetir esse armazenamente de diferentes tipos de dado em uma classe, ainda retira a parte de transformação de valores para evitar erros.
 
